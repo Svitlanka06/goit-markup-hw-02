@@ -15,6 +15,7 @@
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
+  color: var(--text-color);
 }
 .list {
   list-style: none;
@@ -34,16 +35,18 @@ body {
 .menu-link:focus {
   color: var(--pressed-state-color);
 }
-.address-mail,
-.address-phone {
+.header-adress {
+  font-style: normal;
+}
+.address {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-.address-mail:hover,
-.address-mail:focus {
+.address:hover,
+.address:focus {
   color: var(--pressed-state-color);
 }
 
@@ -56,7 +59,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
 }
-.header-logo {
+.header-logo .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -82,6 +85,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-family: inherit;
+  letter-spacing: 0.04em;
+  color: var(--title-color);
   background: var(--primary-brand-color);
   cursor: pointer;
 }
@@ -116,6 +121,7 @@ body {
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--dark-color);
   text-transform: capitalize;
 }
 /* ===================/OUR SKILLS=================== */
@@ -155,6 +161,7 @@ body {
 
 /*====================PORTFOLIO BUTTON====================*/
 .menu-button {
+  font-family: inherit;
   width: 116px;
   height: 48px;
   background: #f4f4fd;
@@ -165,6 +172,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--primary-brand-color);
+  cursor: pointer;
 }
 .menu-button:hover,
 .menu-button:focus {
@@ -201,7 +209,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-brand-color);
 }
-.footer-logo {
+.footer-logo .logo-studio {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
