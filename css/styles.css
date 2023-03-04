@@ -38,6 +38,10 @@ body {
 .header-adress {
   font-style: normal;
 }
+.address-list {
+  font-style: normal;
+}
+
 .address {
   font-style: normal;
   font-weight: 400;
