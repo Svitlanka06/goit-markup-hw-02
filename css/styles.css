@@ -35,14 +35,10 @@ body {
 .menu-link:focus {
   color: var(--pressed-state-color);
 }
-.header-adress {
-  font-style: normal;
-}
-.address-item {
-  font-style: normal;
-}
-
 .address {
+  color: var(--text-color);
+}
+.header-address {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
